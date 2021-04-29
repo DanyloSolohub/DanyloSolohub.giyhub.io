@@ -1,0 +1,37 @@
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-nav {
+    background: linear-gradient(170deg, black, #6b2611, #de6e4c, #6b2611, black);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.txt-logo-color {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.all-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    margin: 10px;
+}
+.photo-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-custom {
+    background: linear-gradient(170deg, #3b0000, #9e0101, red, #9e0101, #3b0000);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.card-body {
+    background: #b4b4b4;
+}
