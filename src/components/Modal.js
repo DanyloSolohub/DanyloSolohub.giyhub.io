@@ -1,12 +1,13 @@
 import React from "react";
 import './Modal.css'
 
-export default function Modal({active, setActive, item}) {
+const Modal = ({active, setActive, image}) => {
     return (
         <div className={active ? 'modal active' : 'modal'} onClick={() => setActive(false)}>
             <div className={active ? 'modalContent active' : 'modalContent'} onClick={e => e.stopPropagation()}>
-                <img src={item} alt="source img"/>
+                <img src={image} alt="source img"/>
             </div>
         </div>
     )
 }
+export default Modal
